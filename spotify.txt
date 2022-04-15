@@ -1,0 +1,2 @@
+https://developer.spotify.com/console/player/
+https://developer.spotify.com/documentation/web-api/libraries/#web-api-tutorial
