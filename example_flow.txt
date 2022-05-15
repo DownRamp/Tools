@@ -1,0 +1,19 @@
+' http://tonyballantyne.com/graphs.html#orgheadline19
+' http://graphviz.org/doc/info/shapes.html
+
+' Indicate the direction of the flowchart
+left to right direction
+
+' Give a block the variable name 'first' and define starting point as (*)
+(*) --> "The first block" as first
+
+first --> "A" as A
+' Give the block a variable name s.t. you can just use its variable name in the next blocks
+  --> "D" as D
+first --> "B" as B
+  --> D
+first --> "C" as C
+  --> D
+
+' Define end point as (*)
+D --> (*)
