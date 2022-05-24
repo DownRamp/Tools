@@ -111,7 +111,7 @@ class Window():
             if "import" in line:
                 line = ">" + line
             if "#" in line:
-                line = line.replace("#", "##")
+                line = line.replace("#", "###")
             chapter.append("{}\n".format(line))
             code.append(line)
         f.close()
