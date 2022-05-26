@@ -122,10 +122,10 @@ class Window():
 
 
     def translate(self, line):
-        current = [".", "def", "=", "global", 'if __name__ == "__main__":', "Tk()", "import", "(", ")", "!=", "!", "strftime", "*"]
+        current = ["<=",">=","<","+=","-=",".init()","__init__(self):", ".", "def", "=", "global", 'if __name__ == "__main__":', "Tk()", "import", "(", ")", "!=", "!", "strftime", "*"]
 
-        change_to = [" ", "Define a function called ", "variable equal to ", "fetch global variable ", "basic call if file initiated",
-        "initiate tkinter", "Import package called ", 'function call with parameters: "', '"', "not equal", "not ", "turn time into string ", "* (means grab everything) "]
+        change_to = ["less then or equal to ","greater then or equal to ","less then ","add to ","subtract from "," initiate ","initiate class ", " ", "Define a function called ", "variable equal to ", "fetch global variable ", "basic call if file initiated ",
+        "initiate tkinter ", "Import package called ", ' function call with parameters: "', '"', "not equal ", "not ", "turn time into string ", "* (means grab everything) "]
 
         for i in range(len(current)):
             line = line.replace(current[i], change_to[i])
