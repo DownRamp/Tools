@@ -1,0 +1,2 @@
+https://support.google.com/accounts/answer/185833
+create an .env file with your email and password
