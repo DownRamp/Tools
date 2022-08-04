@@ -3,7 +3,8 @@ import aiohttp
 import json
 
 from text_api_config import apikey
-
+# more examples
+#https://testdriven.io/blog/flask-async/
 # example
 async def gather_with_concurrency(n, *tasks):
     semaphore = asyncio.Semaphore(n)
