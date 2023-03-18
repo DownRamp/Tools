@@ -114,6 +114,12 @@ public class war {
             }
     }
     private static void War(List<String>deck1, List<String>deck2, List<String>holder1, List<String>holder2, int count){
+        System.out.println("1,2,3 FLIP!");
+        try {
+            Thread.sleep(4000);
+          } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+          }
         String card ="";
         int val1;
         int val2;
